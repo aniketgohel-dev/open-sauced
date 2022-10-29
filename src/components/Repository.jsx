@@ -158,7 +158,7 @@ function Repository({user, match}) {
         <ButtonBoard>
           {repository ? (
             <span>
-              <p style={{fontSize: fontSize.small}}>CodeTriage helps by picking a handful of open issues and delivering them directly to your inbox.</p>
+              <p style={{fontSize: fontSize.small}}>CodeTriage helps by picking a handful of open issues at your and delivering them directly to your inbox.</p>
               <a rel="noreferrer" target="_blank" href={`https://codetriage.com/${nameWithOwner}`}>
                 <Button primary>Set up CodeTriage</Button>
               </a>
